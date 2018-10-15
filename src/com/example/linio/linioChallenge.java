@@ -5,9 +5,8 @@ public class linioChallenge {
 
         for (int i = 1; i <= 100; i++) {
 
-            while (i % 3 == 0 && i % 5 == 0) {
+            if (i % 3 == 0 && i % 5 == 0) {
                 System.out.println("LINIANOS");
-                break;
             }
 
             while (i % 3 == 0 && i % 5 != 0) {
